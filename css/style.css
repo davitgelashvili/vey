@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #E5E5E5;
+}
+
+.section__title {
+  color: #9D50FF;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.section__desc {
+  color: #040921;
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.header {
+  width: 100%;
+  padding: 40px 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.header__logo {
+  width: 100%;
+}
+
+.slider {
+  width: 100%;
+  max-height: 740px;
+  height: 100vh;
+  background-image: url("../../img/cover.png");
+  position: relative;
+}
+
+.slider__text--title {
+  margin-bottom: 16px;
+  color: #fff;
+  font-size: 56px;
+  font-weight: bold;
+  line-height: 72px;
+}
+
+.slider__text--desc {
+  color: #fff;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.slider__tabs {
+  position: absolute;
+  bottom: 95px;
+}
+
+.slider__tabs--header {
+  padding: 5px 0;
+  background: #FCFCFC;
+  border-radius: 12px;
+}
+
+.slider__tabs--btn {
+  margin: 0 7px;
+  list-style: none;
+}
+
+.slider__tabs--btn a {
+  border-radius: 10px;
+  padding: 14px 17px;
+  color: #040921;
+  font-size: 16px;
+  line-height: 18px;
+  text-decoration: none;
+  opacity: .3;
+}
+
+.slider__tabs--btn a:hover {
+  background: #040921;
+  color: #fff;
+  opacity: 1;
+}
+
+.slider__tabs--btn a.active {
+  background: #040921;
+  color: #fff;
+  opacity: 1;
+}
+
+.slider__tabs--body {
+  width: 100%;
+  margin-top: 12px;
+}
+
+.slider__tabs--item {
+  background: #fff;
+  -webkit-box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.06);
+          box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.06);
+  border-radius: 16px;
+}
+
+.offers {
+  padding: 100px 0;
+}
+
+.offers--text {
+  margin-top: 16px;
+  margin-bottom: 33px;
+  width: 100%;
+  max-width: 445px;
+}
+
+.offers__list li {
+  list-style: none;
+}
+
+.offers__list--item {
+  text-decoration: none;
+}
+
+.offers__list--item:hover .offers__list--detail {
+  display: block;
+}
+
+.offers__list--cover {
+  margin-bottom: 24px;
+  width: 100%;
+  height: 296px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.offers__list--cover img {
+  width: 100%;
+  height: 100%;
+}
+
+.offers__list--title {
+  color: #040921;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+.offers__list--desc {
+  display: block;
+  margin-top: 8px;
+  color: #040921;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.offers__list--detail {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */

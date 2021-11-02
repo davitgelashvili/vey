@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+.section{
+    &__title {
+        color: #9D50FF;
+        font-size: 14px;
+        line-height: 17px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    &__desc {
+        color: #040921;
+        font-size: 36px;
+        line-height: 43px;
+        font-weight: bold;
+        text-align: center;
+    }
+}

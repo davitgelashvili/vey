@@ -1,0 +1,72 @@
+.slider {
+    width: 100%;
+    max-height: 740px;
+    height: 100vh;
+    background-image: url('../../img/cover.png');
+    position: relative;
+
+    &__text {
+        &--title {
+            margin-bottom: 16px;
+            color: #fff;
+            font-size: 56px;
+            font-weight: bold;
+            line-height: 72px;
+        }
+
+        &--desc {
+            color: #fff;
+            font-size: 24px;
+            line-height: 32px;
+        }
+    }
+
+    &__tabs {
+        position: absolute;
+        bottom: 95px;
+
+        &--header {
+            padding: 5px 0;
+            background: #FCFCFC;
+            border-radius: 12px;
+        }
+
+        &--btn {
+            margin: 0 7px;
+            list-style: none;
+
+            a {
+                border-radius: 10px;
+                padding: 14px 17px;
+                color: #040921;
+                font-size: 16px;
+                line-height: 18px;
+                text-decoration: none;
+                opacity: .3;
+
+                &:hover {
+                    background: #040921;
+                    color: #fff;
+                    opacity: 1;
+                }
+    
+                &.active {
+                    background: #040921;
+                    color: #fff;
+                    opacity: 1;
+                }
+            }
+        }
+
+        &--body {
+            width: 100%;
+            margin-top: 12px;
+        }
+
+        &--item {
+            background: #fff;
+            box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.06);
+            border-radius: 16px;
+        }
+    }
+}
